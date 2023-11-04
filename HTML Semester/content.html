@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="content.css">
+    <title>Content</title>
+    <style>
+       
+        .slide-wrapper {
+            overflow: hidden;
+            width: calc(728px * 4);
+            animation: slide 10s ease infinite;
+        }
+
+        .slides {
+            display: flex;
+            overflow: hidden;
+            float: left;
+	        height: 510px;
+	        width: 728px;
+        }
+
+        .slide {
+            width: 100%;
+        }
+        .slide img {
+            max-width: 100%;
+            height: auto;
+        }
+         
+</style>
+</head>
+<body>
+    <header>
+        <h2>Content</h2>
+    </header>
+
+    <main>
+        <section>
+            <h1>Audio and Video</h1>
+            
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="./images/Twinkle Twinkle Little Star Instrumental.mp3">
+               
+            </audio>
+
+            <h2>Video</h2>
+            <video controls width="250" height="120">
+                <source src="./images/WhatsApp Video .mp4" type="video/mp4">
+            </video>
+            
+        </section>
+    
+        <section>
+            <h2>PDF Document</h2>
+            <a href="document.pdf" target="" download>Download PDF</a>
+            <source src="./images/JS record SVS.pdf">
+        </section>
+        <section class="slide-wrapper">
+            <h2>Slides</h2>
+            <div class="slides">
+                <div class="slide">
+                   
+                    <img src="./images/dhoni.gif" alt="Slide 1">
+                </div>
+                <div class="slide">
+                   
+                    <img src="./images/giphy.gif" alt="Slide 2">
+                </div>
+             
+            </div>
+        </section>
+
+    </main>
+	
+    <footer>
+        <p>Follow us on</p>
+        <img src="./images/instagram-logo-thin.svg">
+        <img src="./images/youtube-logo-red-hd-13.png">
+        <p>&copy; Contact BCCI for queries.</p>
+    </footer>
+</body>
+</html>
+

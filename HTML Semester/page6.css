@@ -1,0 +1,13 @@
+body{
+    max-width: 1600px;
+    background-color: #e1f7f7;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: 4000px;
+    width: 4000px;
+}
+h2{
+    font-size: 55px;
+    text-align: center;
+}
